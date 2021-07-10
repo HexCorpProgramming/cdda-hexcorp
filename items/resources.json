@@ -1,0 +1,17 @@
+[
+    {
+        "id": "latex_patch",
+        "type": "TOOL",
+        "category": "spare_parts",
+        "name": { "str": "Latex patch", "str_pl": "Latex patches" },
+        "description": "This patch of latex could be glued to other latex to cover holes or even create something new.",
+        "weight": "87 g",
+        "volume": "250 ml",
+        "price": 0,
+        "price_postapoc": 10,
+        "material": [ "latex" ],
+        "symbol": ",",
+        "color": "dark_gray",
+        "flags": [ "NO_SALVAGE" ]
+      }
+]

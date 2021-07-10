@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "hexcorp",
+    "name": "HexCorp",
+    "authors": [ "9813" ],
+    "maintainers": [ "9813" ],
+    "description": "Adds items, NPCs and locations themed around HexCorp.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
