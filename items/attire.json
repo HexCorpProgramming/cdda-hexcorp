@@ -1,76 +1,76 @@
 [
-  {
-    "type": "TOOL_ARMOR",
-    "id": "hc_headphones",
-    "name": {
-      "str": "HexCorp headphones",
-      "str_pl": "HexCorp headphones"
+    {
+        "type": "TOOL_ARMOR",
+        "id": "hc_headphones",
+        "name": {
+            "str": "HexCorp headphones",
+            "str_pl": "HexCorp headphones"
+        },
+        "description": "These HexCorp brand mind control headphones sport stylish cat ears and glowing accents.",
+        "category": "armor",
+        "weight": "400 g",
+        "volume": "750 ml",
+        "price": 15000,
+        "to_hit": -2,
+        "material": [
+            "plastic"
+        ],
+        "symbol": "[",
+        "color": "black",
+        "covers": [
+            "head"
+        ],
+        "coverage": 10,
+        "encumbrance": 1,
+        "warmth": 1,
+        "material_thickness": 5,
+        "environmental_protection": 0,
+        "flags": [
+            "WATER_FRIENDLY",
+            "STURDY"
+        ]
     },
-    "description": "These HexCorp brand mind control headphones sport stylish cat ears and glowing accents.",
-    "category": "armor",
-    "weight": "400 g",
-    "volume": "750 ml",
-    "price": 15000,
-    "to_hit": -2,
-    "material": [
-      "plastic"
-    ],
-    "symbol": "[",
-    "color": "black",
-    "covers": [
-      "head"
-    ],
-    "coverage": 10,
-    "encumbrance": 1,
-    "warmth": 1,
-    "material_thickness": 5,
-    "environmental_protection": 0,
-    "flags": [
-      "WATER_FRIENDLY",
-      "STURDY"
-    ]
-  },
-  {
-    "type": "TOOL_ARMOR",
-    "id": "hc_catsuit",
-    "name": {
-      "str": "HexCorp catsuit",
-      "str_pl": "HexCorp catsuits"
-    },
-    "description": "This is one of the HexCorp brand catsuits that is worn by a lot of the ⬡-Drones. It is skintight and covers the whole body in gleaming black.",
-    "category": "armor",
-    "weight": "1 kg",
-    "volume": "2000 ml",
-    "price": 50000,
-    "to_hit": -2,
-    "material": [
-      "latex"
-    ],
-    "symbol": "[",
-    "color": "black",
-    "covers": [
-      "arm_l",
-      "arm_r",
-      "foot_l",
-      "foot_r",
-      "hand_l",
-      "hand_r",
-      "head",
-      "leg_l",
-      "leg_r",
-      "torso"
-    ],
-    "coverage": 100,
-    "encumbrance": 1,
-    "warmth": 1,
-    "material_thickness": 1,
-    "environmental_protection": 1,
-    "flags": [
-      "FANCY",
-      "RAINPROOF",
-      "SKINTIGHT",
-      "WATER_FRIENDLY",
-      "STURDY"
-    ]
-  }
+    {
+        "type": "TOOL_ARMOR",
+        "id": "hc_catsuit",
+        "name": {
+            "str": "HexCorp catsuit",
+            "str_pl": "HexCorp catsuits"
+        },
+        "description": "This is one of the HexCorp brand catsuits that is worn by a lot of the ⬡-Drones. It is skintight and covers the whole body in gleaming black.",
+        "category": "armor",
+        "weight": "1 kg",
+        "volume": "2000 ml",
+        "price": 50000,
+        "to_hit": -2,
+        "material": [
+            "latex"
+        ],
+        "symbol": "[",
+        "color": "black",
+        "covers": [
+            "arm_l",
+            "arm_r",
+            "foot_l",
+            "foot_r",
+            "hand_l",
+            "hand_r",
+            "head",
+            "leg_l",
+            "leg_r",
+            "torso"
+        ],
+        "coverage": 100,
+        "encumbrance": 1,
+        "warmth": 1,
+        "material_thickness": 1,
+        "environmental_protection": 1,
+        "flags": [
+            "FANCY",
+            "RAINPROOF",
+            "SKINTIGHT",
+            "WATER_FRIENDLY",
+            "STURDY"
+        ]
+    }
 ]
