@@ -3,8 +3,8 @@
         "type": "TOOL_ARMOR",
         "id": "hc_headphones",
         "name": {
-            "str": "HexCorp headphones",
-            "str_pl": "HexCorp headphones"
+            "str": "cat ear headphones",
+            "str_pl": "cat ear headphones"
         },
         "description": "These HexCorp brand mind control headphones sport stylish cat ears and glowing accents.",
         "category": "armor",
@@ -34,8 +34,8 @@
         "type": "TOOL_ARMOR",
         "id": "hc_catsuit",
         "name": {
-            "str": "HexCorp catsuit",
-            "str_pl": "HexCorp catsuits"
+            "str": "latex catsuit",
+            "str_pl": "latex catsuits"
         },
         "description": "This is one of the HexCorp brand catsuits that is worn by a lot of the ⬡-Drones. It is skintight and covers the whole body in gleaming black.",
         "category": "armor",

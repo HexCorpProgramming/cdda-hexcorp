@@ -7,6 +7,10 @@
 - blahaj? (for the memes)
 - bonkbat
 
+## furniture
+
+- recharge pod
+
 ## NPCs
 
 ## Monsters

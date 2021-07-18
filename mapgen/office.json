@@ -1,0 +1,156 @@
+[
+    {
+        "type": "mapgen",
+        "om_terrain": [
+            "s_hexcorp_office"
+        ],
+        "weight": 250,
+        "method": "json",
+        "object": {
+            "fill_ter": "t_linoleum_gray",
+            "rows": [
+                "zs______,______,______sz",
+                "zs______,______,______sz",
+                "zs______,______,______sz",
+                "zs______,______,______sz",
+                "zs______,______,______sz",
+                "zs______,______,______sz",
+                "ssssssssssssssssssssssss",
+                "_--5555--5555--+--55555_",
+                "_|.CCCC..CCCC.^.^|rrrr8_",
+                "_8m.............r|L---|_",
+                "_8m..CCCCrr......x...^8_",
+                "_8m..###rr1......#q...8_",
+                "_|m..............#...r|_",
+                "_|...######......#c..r|_",
+                "_|r..######..-------I-|_",
+                "_8r..........|EEEEt..F|_",
+                "_8r..xxx.....|E.c...cE8_",
+                "_8r..xxx.....I.......E8_",
+                "_|..........^|.##llll^|_",
+                "_|D---D|------L----55-|_",
+                "4|.S|S.|d<dsssssss______",
+                "_|T#|#T|_dd_____________",
+                "_-------________________",
+                "________________________"
+            ],
+            "terrain": {
+                "%": "t_region_shrub_decorative",
+                "+": "t_door_metal_pickable",
+                ",": "t_pavement_y",
+                "-": "t_wall_w",
+                ".": "t_linoleum_gray",
+                "1": "t_column",
+                "5": "t_window_bars_alarm",
+                "8": "t_window_bars_alarm",
+                "D": "t_door_c",
+                "H": "t_window",
+                "I": "t_door_locked_interior",
+                "L": "t_door_metal_pickable",
+                "W": "t_curtains",
+                "_": "t_pavement",
+                "d": "t_pavement",
+                "s": "t_sidewalk",
+                "z": "t_region_shrub_decorative",
+                "|": "t_wall_w",
+                "4": "t_gutter_downspout",
+                "<": "t_ladder_up"
+            },
+            "furniture": {
+                "#": "f_counter",
+                "C": "f_displaycase",
+                "E": "f_desk",
+                "F": "f_fridge",
+                "S": "f_sink",
+                "^": [
+                    "f_indoor_plant_y",
+                    "f_indoor_plant"
+                ],
+                "c": "f_chair",
+                "d": [
+                    "f_dumpster",
+                    "f_recycle_bin"
+                ],
+                "l": "f_locker",
+                "q": "f_stool",
+                "r": "f_rack",
+                "t": "f_trashcan",
+                "x": "f_console_broken",
+                "m": "f_mannequin"
+            },
+            "toilets": {
+                "T": {}
+            },
+            "place_item": [
+                {
+                    "item": "hc_headphones",
+                    "x": 2,
+                    "y": 9,
+                    "chance": 80
+                },{
+                    "item": "hc_headphones",
+                    "x": 2,
+                    "y": 10,
+                    "chance": 80
+                },{
+                    "item": "hc_headphones",
+                    "x": 2,
+                    "y": 11,
+                    "chance": 80
+                },{
+                    "item": "hc_headphones",
+                    "x": 2,
+                    "y": 12,
+                    "chance": 80
+                },
+                {
+                    "item": "hc_catsuit",
+                    "x": 2,
+                    "y": 9,
+                    "chance": 80
+                },
+                {
+                    "item": "hc_catsuit",
+                    "x": 2,
+                    "y": 10,
+                    "chance": 80
+                },
+                {
+                    "item": "hc_catsuit",
+                    "x": 2,
+                    "y": 11,
+                    "chance": 80
+                },
+                {
+                    "item": "hc_catsuit",
+                    "x": 2,
+                    "y": 12,
+                    "chance": 80
+                }
+            ],
+            "place_monsters": [
+                {
+                    "monster": "GROUP_HEXDRONES",
+                    "x": 2,
+                    "y": 13,
+                    "chance": 1
+                }
+            ]
+        }
+    },
+    {
+        "type": "overmap_terrain",
+        "id": [
+            "s_hexcorp_office"
+        ],
+        "copy-from": "generic_city_building",
+        "name": "HexCorp recruitment office",
+        "color": "light_blue",
+        "extend": {
+            "flags": [
+                "SOURCE_ELECTRONICS",
+                "SOURCE_CLOTHING"
+            ]
+        }
+    }
+]

@@ -47,5 +47,21 @@
             "avoid_sharp": true
         },
         "death_drops": "hexdrone_drops"
+    },
+    {
+        "name": "GROUP_HEXDRONES",
+        "type": "monstergroup",
+        "default": "hexdrone",
+        "monsters": [
+            {
+                "monster": "hexdrone",
+                "freq": 100,
+                "cost_multiplier": 1,
+                "pack_size": [
+                    1,
+                    2
+                ]
+            }
+        ]
     }
 ]
