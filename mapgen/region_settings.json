@@ -1,0 +1,11 @@
+[
+    {
+      "type": "region_overlay",
+      "regions": [ "all" ],
+      "city": {
+        "shops": {
+            "s_hexcorp_office": 300
+        }
+      }
+    }
+  ]
